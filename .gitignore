@@ -1,2 +1,8 @@
 
 *.log
+
+Dockerfile
+
+hubot-scripts.json
+node_modules
+test.js
