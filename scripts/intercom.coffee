@@ -1,5 +1,5 @@
 # Description:
-#   Add email to Intercom.io list
+#   Use Intercom.io API
 #
 # Dependencies:
 #   "intercom.io": "1.0.5"
@@ -14,7 +14,7 @@
 #   hubot intercom user <user id> - Show user info
 #
 # Author:
-#   max, lmarburger, m-baumgartner, sporkmonger
+#   inakiabt
 
 getSegments = (segments) ->
   promises = []
