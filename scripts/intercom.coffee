@@ -75,7 +75,7 @@ module.exports = (robot) ->
   robot.brain.on 'loaded', =>
     CACHE.intercom = robot.brain.data.intercom or {}
 
-  robot.respond /\bintercom user (.+)/i, (message) ->
+  robot.respond /intercom user (.+)/i, (message) ->
     showUserInfo message
 
 showUserInfo = (message) ->
