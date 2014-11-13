@@ -75,12 +75,12 @@ module.exports = (robot) ->
   robot.brain.on 'loaded', =>
     CACHE.intercom = robot.brain.data.intercom or {}
 
-  robot.respond /intercom user (.+)/i, (message) ->
+  robot.hear /intercom user (.+)$/i, (message) ->
     showUserInfo message
 
 showUserInfo = (message) ->
   user = message.match[1]
-  message.reply "Attempting to show info for user #{user}..."
+  # message.reply "Attempting to show info for user #{user}..."
 
   intercom.getUser(user_id: user).then((res) ->
     getMessage res
