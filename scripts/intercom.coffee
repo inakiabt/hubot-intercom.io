@@ -65,7 +65,8 @@ intercom = new Intercom(options)
 CACHE = {intercom: {}}
 
 getCache = (key) ->
-  return CACHE.intercom[key] or null
+  return null
+  #return CACHE.intercom[key] or null
 
 storeCache = (key, value) ->
   CACHE.intercom[key] = value
