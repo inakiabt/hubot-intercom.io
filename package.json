@@ -1,7 +1,7 @@
 {
   "name": "hubot-intercom.io",
   "description": "Intercom.io hubot script as an NPM package",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Iñaki Abete",
     "email": "https://github.com/inakiabt"
